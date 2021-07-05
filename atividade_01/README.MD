@@ -45,5 +45,5 @@
 
 
         obs: 
-        Dados estão no arquivo database.sql
+        Dados estão no arquivo database_01.sql
         Respostas estão no arquivo atividade_01_respostas.sql

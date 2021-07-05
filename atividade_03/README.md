@@ -40,6 +40,6 @@ o programador
 
     
         obs: 
-        Dados estão no arquivo database.sql
+        Dados estão no arquivo database_03.sql
         Respostas estão no arquivo atividade_03_respostas.sql
 
