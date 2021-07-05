@@ -42,16 +42,3 @@ INSERT INTO LIVRO(NOME,AUTOR,SEXOAUTOR,NUMERODEPAGINAS,EDITORA,VALOR,UFEDITORA,A
 INSERT INTO LIVRO(NOME,AUTOR,SEXOAUTOR,NUMERODEPAGINAS,EDITORA,VALOR,UFEDITORA,ANODEPUBLICACAO) VALUES ('Pra sempre amigas'   , 'Leda Silva'       ,  'F' ,  510 ,  'Insignia'   ,  78.98  ,  'ES' ,  2011 );
 INSERT INTO LIVRO(NOME,AUTOR,SEXOAUTOR,NUMERODEPAGINAS,EDITORA,VALOR,UFEDITORA,ANODEPUBLICACAO) VALUES ('Copas Inesqueciveis' , 'Marco Alcantara'  ,  'M' ,  200 ,  'Larson'     ,  130.98 ,  'RS' ,  2018 ); 
 INSERT INTO LIVRO(NOME,AUTOR,SEXOAUTOR,NUMERODEPAGINAS,EDITORA,VALOR,UFEDITORA,ANODEPUBLICACAO) VALUES ('O poder da mente'    , 'Clara Mafra'      ,  'F' ,  120 ,  'Continental',  56.58  ,  'SP' ,  2017 );
-
-/*1. Trazer todos os dados.*/
-SELECT * FROM LIVRO;
-/*2.  Trazer o nome do livro e o nome da editora.*/
-SELECT NOME, EDITORA FROM LIVRO;
-/*3.  Trazer o nome do livro e a UF dos livros publicados por autores do sexo Masculino.*/
-SELECT NOME, UFEDITORA FROM LIVRO WHERE SEXOAUTOR LIKE 'M'; 
-/*4. Trazer o nome do livro e o número de páginas dos livros publicados por autores do sexo Feminino.*/
-SELECT NOME, NUMERODEPAGINAS FROM LIVRO WHERE SEXOAUTOR LIKE 'F';
-/*5. Trazer os valores dos livros das editoras de São Paulo.*/
-SELECT NOME, VALOR, UFEDITORA  FROM LIVRO WHERE UFEDITORA LIKE 'SP';
-/*6.  Trazer os dados dos autores do sexo Masculino que tiveram livros publicados por São Paulo ou Rio de Janeiro (Questão Desafio).*/
-SELECT NOME, SEXOAUTOR, NOME,UFEDITORA FROM LIVRO WHERE SEXOAUTOR LIKE 'M' AND UFEDITORA LIKE 'SP' OR UFEDITORA LIKE 'RJ';

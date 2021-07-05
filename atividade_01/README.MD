@@ -1,6 +1,19 @@
 # Atividade 01
 
-O nosso cliente solicitou uma tabela para armazenar os livros que são comercializados pela empresa. A solicitação é somente para livros e não há a necessidade de realizar busca em outras tabelas. Hoje há um funcionário de vendas que tem uma tabela do Excel para guardar esses registros, mas as buscas estão ficando complexas. Decidiu-se então criar um banco de dados separado para esse funcionário.
+
+
+<div align="center">
+   <a href="#" alt="Language">
+        <img src="https://img.shields.io/static/v1?label=Language&message=MYSQL&color=blue&style=for-the-badge" /></a>
+    
+</div>
+
+<br>
+
+
+<br>
+
+<p> O nosso cliente solicitou uma tabela para armazenar os livros que são comercializados pela empresa. A solicitação é somente para livros e não há a necessidade de realizar busca em outras tabelas. Hoje há um funcionário de vendas que tem uma tabela do Excel para guardar esses registros, mas as buscas estão ficando complexas. Decidiu-se então criar um banco de dados separado para esse funcionário.</p>
 <P>Após a criação da tabela, deveremos entregar algumas queries prontas para que sejam enviadas para o programador.</P>
 
 |    | Nome do Livro       | Nome do Autor     | Sexo do Autor | Numero de Páginas | Nome da Editora | Valor do Livro | UF da Editora | Ano da Publicacao |
@@ -29,3 +42,8 @@ O nosso cliente solicitou uma tabela para armazenar os livros que são comercial
 1. Trazer os valores dos livros das editoras de São Paulo.
 
 1.  Trazer os dados dos autores do sexo masculino que tiveram livros publicados por São Paulo ou Rio de Janeiro (Questão Desafio).
+
+
+        obs: 
+        Dados estão no arquivo database.sql
+        Respostas estão no arquivo atividade_01_respostas.sql
